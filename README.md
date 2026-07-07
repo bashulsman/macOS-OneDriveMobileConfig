@@ -4,6 +4,8 @@ Offline PowerShell GUI tool that generates Intune-importable `.mobileconfig` pro
 
 Built for MSP use: enter the customer variables once, and the tool produces correctly branded, valid profiles with fresh UUIDs — no manual XML editing per tenant.
 
+![OneDrive macOS .mobileconfig Generator GUI](screenshot01.png)
+
 ## Features
 
 - **AllowTenantList** profile — restricts the OneDrive sync client to one or more approved Entra tenant IDs. Any tenant not on the list is blocked at sign-in.
